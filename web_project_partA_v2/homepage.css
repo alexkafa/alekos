@@ -1,0 +1,106 @@
+header {
+    height: 150px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+}
+
+header img {
+    height: 58px;
+    width: 250px;
+    margin-left: 50px;
+}
+
+.header-buttons {
+    margin-right: 50px;
+    display: flex;
+    gap: 10px;
+}
+
+
+.frame {
+    width: 1200px;
+    background-color: #fff;
+    margin: 10px 0;
+    display: flex;
+    margin-left: 35px;
+}
+
+#frame1, #frame2 {
+    height: 400px;
+}
+
+#frame3 {
+    height: 600px;
+}
+
+
+.subframe {
+    width: 50%;
+    display: flex;
+}
+
+#subframe1 {
+    flex-direction: column;
+    border-right: 0.5px solid #bbb;
+}
+
+#subframe1 h1, p {
+    margin-left: 20px;
+}
+
+#subframe2 {
+    background-color: #fff;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+}
+
+#subframe2 img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
+
+#subframe2_1_2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#subframe2_1_2 h1, p {
+    margin-left: 10px;
+}
+
+#subframe2_2_1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#subframe2_2_2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#subframe2_2_2 p1 {
+    margin-top: 160px;
+    margin-left: 150px;
+}
+
+#subframe2_2_2 p2 {
+    margin-top: 100px;
+    margin-left: 15px;
+}
+
+
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #ddd;
+}
